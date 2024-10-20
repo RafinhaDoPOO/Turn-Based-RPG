@@ -4,10 +4,19 @@ import Projeto.src.CharcterClasses.Human;
 
 public class App {
             public static void main(String[] args) {
+                Party p = new Party();
+                Party n = new Party();
+
                 Character hero = new Character("Rafael", 100, 20, 10,50);
                 Character villain = new Character("Lopes", 100, 15, 8,30);
                 Human human = new Human("Rafa");
 
+                p.addCHaracter(human);
+                p.addCHaracter(hero);
+
+                n.addCHaracter(villain);
+                p.Fight(n);
+                
                 System.out.println("Nome do herói: " + hero.getName());
                 System.out.println("Vida do herói: " + hero.getLife());
 

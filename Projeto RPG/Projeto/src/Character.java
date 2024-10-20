@@ -96,7 +96,7 @@ public class Character {
     }
 
     public void ShowStatus(){
-        System.err.println(this.getName() +"Vida:"+ this.getLife() + "Ataque:" + this.getAD() + "Mana:" + this.getMG() +"Defesa:" + this.getDF());
+        System.err.println(this.getName() +" Vida: "+ this.getLife() + " Ataque: " + this.getAD() + " Mana: " + this.getMG() +" Defesa: " + this.getDF());
     }
     public void usePower() {
        
